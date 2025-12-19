@@ -121,6 +121,42 @@ body {
   /* Ensure it sits on top of the video and overlay */
   z-index: 10;
   /* Set a size for the logo (adjust as needed) */
-  width: 150px; 
+  width: 225px; 
   height: auto;
+
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.center-img {
+  display: block;
+  margin: 30px auto;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: nowrap; /* keeps them on one line */
+  margin-top: 40px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%; /* circle images */
+  object-fit: cover;
+  margin-bottom: 10px;
 }
